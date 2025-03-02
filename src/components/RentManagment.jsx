@@ -63,6 +63,10 @@ export const RentManagment = () => {
         {/* <button className="submitButton" type="submit">
           Submit
         </button> */}
+
+        <button className="submitButton" type="submit">
+          Submit submit 2
+        </button>
       </div>
     </form>
   );
