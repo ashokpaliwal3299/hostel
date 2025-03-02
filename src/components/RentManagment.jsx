@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../StyleComponents/Button";
 
 export const RentManagment = () => {
   return (
@@ -58,9 +59,10 @@ export const RentManagment = () => {
       </div>
 
       <div>
-        <button className="submitButton" type="submit">
+        <Button name={"Submit"} />
+        {/* <button className="submitButton" type="submit">
           Submit
-        </button>
+        </button> */}
 
         <button className="submitButton" type="submit">
           Submit submit 2
